@@ -12,7 +12,7 @@ import { t } from "@app/locale"
 import timerService, { TimerQueryParam, SortDirect } from "@service/timer-service"
 import { formatPeriodCommon, formatTime, MILL_PER_DAY } from "@util/time"
 import HostOptionInfo from "../host-option-info"
-import { contentContainerCardStyle } from "@app/components/common/content-container"
+import { contentContainerCardStyle } from "@app/pages/common/content-container"
 
 // Get the timestamp of one timestamp of date
 const timestampOf = (d: Date) => d.getTime()

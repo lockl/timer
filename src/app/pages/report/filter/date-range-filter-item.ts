@@ -10,7 +10,7 @@ import { h, Ref } from "vue"
 import { daysAgo } from "@util/time"
 import { t } from "@app/locale"
 import { ReportMessage } from "@app/locale/components/report"
-import { QueryData } from "@app/components/common/constants"
+import { QueryData } from "@app/pages/common/constants"
 
 export type DateRangeFilterItemProps = {
     dateRangeRef: Ref<Date[]>

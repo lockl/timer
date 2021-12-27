@@ -6,7 +6,7 @@
  */
 
 import { ElTableColumn } from "element-plus"
-import { host2ElLink } from "@app/components/common/table"
+import { host2ElLink } from "@app/pages/common/table"
 import { HostAliasInfo } from "@entity/dto/host-alias-info"
 import { h } from "vue"
 import { t } from "@app/locale"

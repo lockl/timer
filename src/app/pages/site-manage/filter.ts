@@ -6,7 +6,7 @@
  */
 
 import { HostAliasSource } from "@entity/dao/host-alias"
-import { QueryData } from "@app/components/common/constants"
+import { QueryData } from "@app/pages/common/constants"
 import { buttonFilterItem, inputFilterItem, renderFilterContainer, switchFilterItem } from "../common/filter"
 import { computed, Ref } from "vue"
 import { Plus } from "@element-plus/icons"

@@ -11,7 +11,7 @@ import { h } from "vue"
 import TimeLimitItem from "@entity/dto/time-limit-item"
 import limitService from "@service/limit-service"
 import { t } from "@app/locale"
-import { QueryData } from "@app/components/common/constants"
+import { QueryData } from "@app/pages/common/constants"
 
 const columnProps = {
     prop: 'operations',

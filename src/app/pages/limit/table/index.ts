@@ -8,7 +8,7 @@
 import { ElTable } from "element-plus"
 import { h, Ref } from "vue"
 import TimeLimitItem from "@entity/dto/time-limit-item"
-import { QueryData } from "@app/components/common/constants"
+import { QueryData } from "@app/pages/common/constants"
 import columns from "./column"
 
 type _Props = {

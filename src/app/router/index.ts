@@ -18,13 +18,13 @@ const dataRoutes: RouteRecordRaw[] = [
     // Needn't nested router 
     {
         path: '/data/report',
-        component: () => import('../components/report')
+        component: () => import('../pages/report')
     }, {
         path: TREND_ROUTE,
-        component: () => import('../components/trend')
+        component: () => import('../pages/trend')
     }, {
         path: '/data/manage',
-        component: () => import('../components/data-manage')
+        component: () => import('../pages/data-manage')
     }
 ]
 
@@ -34,10 +34,10 @@ const behaviorRoutes: RouteRecordRaw[] = [
         redirect: '/behavior/habit'
     }, {
         path: '/behavior/habit',
-        component: () => import('../components/habit')
+        component: () => import('../pages/habit')
     }, {
         path: LIMIT_ROUTE,
-        component: () => import('../components/limit')
+        component: () => import('../pages/limit')
     }
 ]
 
@@ -47,16 +47,16 @@ const additionalRoutes: RouteRecordRaw[] = [
         redirect: '/additional/whitelist'
     }, {
         path: '/additional/site-manage',
-        component: () => import('../components/site-manage')
+        component: () => import('../pages/site-manage')
     }, {
         path: '/additional/whitelist',
-        component: () => import('../components/whitelist')
+        component: () => import('../pages/whitelist')
     }, {
         path: '/additional/rule-merge',
-        component: () => import('../components/rule-merge')
+        component: () => import('../pages/rule-merge')
     }, {
         path: OPTION_ROUTE,
-        component: () => import('../components/option')
+        component: () => import('../pages/option')
     }
 ]
 
